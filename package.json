@@ -1,0 +1,23 @@
+{
+  "name": "database-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server && ./database/mongoConnection",
+    "start": "node server.js && node ./database/mongoConnection"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "consign": "^0.1.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2",
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0"
+  }
+}
